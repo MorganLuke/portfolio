@@ -1,2 +1,2 @@
-
+ 
 This website serves as a comprehensive portfolio showcasing my accomplishments as a dedicated student and independent practitioner in the fields of web development, database management, and application development. My academic journey provided me with invaluable opportunities to acquire and refine these skills. Furthermore, I have diligently expanded upon this foundation by undertaking a series of self-driven projects, further enhancing my proficiency in these domains.
