@@ -2,8 +2,8 @@
 
 // this loads the partial header and footer partials and renders it to the browser
 export async function loadhHeaderFooter() {
-    let header = ".public/partials/header.html";
-    let footer = ".public/partials/footer.html";
+    let header = "./public/partials/header.html";
+    let footer = "./public/partials/footer.html";
     let hTemplate = await loadTemplate(header);
     let fTemplate = await loadTemplate(footer);
     let headerE1 = document.querySelector("#mainHeader");
@@ -20,7 +20,7 @@ export async function loadTemplate(path)  {
     return response;
 }
 
-
+// renders html into page
 export async function renderWithTemplate(template, parentElement, data, position = "afterbegin", callback) {
     parentElement.insertAdjacentHTML(position, template);
     if (callback) {
