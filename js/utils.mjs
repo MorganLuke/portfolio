@@ -13,3 +13,11 @@ export async function loadhHeaderFooter() {
 }
 
 
+// fetch the html from the file using the file path
+export async function loadTemplate(path)  {
+    let response = await fetch(path);
+    response = await response.text();
+    return response;
+}
+
+
