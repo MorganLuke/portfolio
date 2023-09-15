@@ -21,3 +21,11 @@ export async function loadTemplate(path)  {
 }
 
 
+export async function renderWithTemplate(template, parentElement, data, position = "afterbegin", callback) {
+    parentElement.insertAdjacentHTML(position, template);
+    if (callback) {
+        callback(data);
+    }
+}
+
+
