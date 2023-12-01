@@ -1,7 +1,7 @@
 // utility functions
 
 // this loads the partial header and footer partials and renders it to the browser
-export async function loadhHeaderFooter() {
+export async function loadHeaderFooter() {
     let header = "./public/partials/header.html";
     let footer = "./public/partials/footer.html";
     let hTemplate = await loadTemplate(header);
