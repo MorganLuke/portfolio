@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/MorganLuke/portfolio/issues"
   },
-  "homepage": "https://github.com/MorganLuke/portfolio#readme",
+  "homepage": "https://github.com/MorganLuke/portfolio",
   "devDependencies": {
     "gh-pages": "^6.1.0"
   }
